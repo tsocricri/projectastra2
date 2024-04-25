@@ -15,7 +15,7 @@ The link to our institute's website is [this one](https://www.salveminialessano.
 
 ---
 
-![Project Astra Image](/assets/images/readme.png)
+![Project Astra Image](/assets/images/readme2.png)
 
 ### How does this platform work?
 The platform is nothing more than a real webtv where you can watch our content.
