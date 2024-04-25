@@ -11,7 +11,7 @@
 <body>
     <section class="section-init">
     <nav>
-        <img src="assets/images/logo-xicon.png" class="img-logo">
+                <img src="assets/images/logo-xicon.png" class="img-logo">
                 <a href="lanostrascuola.html" target="_blank" style="margin-left: 10px;">Salvemini Vibes
                     </a>
     </nav>
@@ -38,9 +38,11 @@
 
     </section>
     <div class="slider-container">
-    <div class="title-1">
+    <div class="title">
+      <div class="title-1">
         <p>Puntate Intere</p>
     </div>
+  </div>
     <div class="container">
         <div class="slider-wrapper">
           <button id="prev-slide" class="slide-button material-symbols-rounded">
@@ -83,8 +85,10 @@
       </div>
 
      <div class="slider-container">
-          <div class="title-2">
-        <p>Clip</p>
+      <div class="title">
+        <div class="title-2">
+          <p>Clip</p>
+      </div>
     </div>
     <div class="container">
         <div class="slider-wrapper">
@@ -114,13 +118,32 @@
         </div>
       </div>
     </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-final">
+          <p>Made with ❤️ by Cristiano for <a href="../assets/index.html" style="text-decoration: underline; text-decoration-thickness: 2px;">Salvemini Vibes </a></p>
+          <p>Salvemini Vibes © and Project Astra®</p>
+          <p><b style="margin-top: 10px; margin-bottom: -3px;">Launched in Italy, on <font class="year" style="margin-top: -2px; "></font></b></p>
+        </div>
+      </div>
+    </footer>
       
       <script>
+
+          document.addEventListener("DOMContentLoaded", function() { 
+            // get the the span element
+            const yrSpan = document.querySelector('.year');
+            // get the current year
+            const currentYr = new Date().getFullYear();
+            // set the year span element's text to the current year
+            yrSpan.textContent = currentYr;
+          });
         // Funzione per aprire il popup con il video di YouTube
         function openPopup(videoUrl) {
             // Imposta l'iframe del video
             var playerDiv = document.getElementById('ytplayer1');
-            playerDiv.innerHTML = '<iframe width="1240px" height="700px" src="' + videoUrl + '" frameborder="0" allowfullscreen style="border-radius:20px;"></iframe>';
+            playerDiv.innerHTML = '<iframe width="1240px" height="700px" src="' + videoUrl + '" frameborder="0" allowfullscreen style="border-radius:20px;" class="iframe"></iframe>';
 
             // Mostra il popup
             document.getElementById("overlay").style.display = "flex";
