@@ -32,7 +32,7 @@ nav{
     top: 2%;
     left: 1.5%;
     right: 1.5%;
-    z-index: 5;
+    z-index: 6;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);  
     transition: all 0.2s ease-in-out;
@@ -376,6 +376,30 @@ a {
     backdrop-filter: blur(150px); /* Effetto blur */
     z-index: 1;
   }
+
+  .footer-content{
+    background-color: #0406139f;
+    border-radius: 15px;
+    border: 2px solid #ececec;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    font-family: 'SFMono';
+    font-size: 15px;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);  
+  }
+
+  .footer-final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0%;
+    text-align: center;
+  }
   
 @media only screen and (max-width: 1441px) {
     .everything{
@@ -394,4 +418,378 @@ a {
         align-items: center;
     }
     
+}
+
+@media only screen and (max-width: 413px) {
+  .everything{
+      margin-top: 30%;
+      margin-bottom: 20%;
+  }
+
+  nav{
+    background-color: #040613bd;
+    border-radius: 15px;
+    border: 2px solid #ececec;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    transition: all 0.2s ease-in-out;
+    font-family: 'SFMono';
+    font-size: 15px;
+}
+
+.img-logo{
+  width: 50px;
+  height: 50px;
+}
+
+  body{
+    background-image: url('images/bgwebsite.png'); 
+    background-repeat: no-repeat;
+    background-attachment:unset;
+    background-size:cover;
+  }
+
+  .tendenze-title {
+      text-align: center;
+      font-size: 60%;
+      z-index: 1;
+      border-radius: 20px;
+      display: flex;
+      color: rgb(33, 34, 46);
+      background-color: transparent;
+      flex-direction: column-reverse;
+      align-items: center;
+  }
+  
+  .section-init{
+    background-image: none;
+}
+
+.tendenze{
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  border: 2px solid #ececec;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+
+
+.title-1 {
+  font-family: 'SF Pro Display';
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5%;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color:#181a22;
+  background-color: rgba(219, 219, 219, 0.952);
+  border: none;
+  width: 180px;
+  height: 58px;
+  padding: 5px;
+  align-content: stretch;
+  flex-direction: row-reverse;
+}
+
+.title-2 {
+  font-family: 'SF Pro Display';
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5%;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color:#181a22;
+  background-color: rgba(219, 219, 219, 0.952);
+  border: none;
+  width: 130px;
+  height: 58px;
+  padding: 5px;
+  align-content: stretch;
+  flex-direction: row-reverse;
+}
+
+.title{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);  
+  overflow-y: hidden;
+}
+
+.popup {
+  background-color: rgba(155, 155, 155, 0.253);
+  padding:20px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);  
+  border: 6px solid #ccc;
+  border-radius: 40px;
+  max-width: 80%;
+  max-height: 20%;
+  overflow: auto;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+.iframe{
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+/* Stile per il pulsante di chiusura */
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.pulsanteplclose {
+  position: absolute;
+  display: flex;
+  top: 75%;
+  right: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border-radius: 100px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 50px 0px #ffffff15;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(160, 160, 160, 0.349);
+  backdrop-filter: blur(200px);
+  z-index: 1000;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: flex-end;
+  flex-direction: column;
+}
+
+.pulsanteiconclose{
+  margin-top:2px;
+  left: 30px;
+}
+
+.pulsantepl{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0px 0px 50px 0px #ffffff15;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(218, 218, 218, 0.24); /* Colore di sfondo semi trasparente */
+  backdrop-filter: blur(150px); /* Effetto blur */
+  z-index: 1;
+}
+
+.container {
+  max-width: 100%;
+  width: 95%;
+  height: 300px;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius:20px;
+  transition:  all 0.2s ease-in-out;
+
+}
+.slider-wrapper {
+  position: relative;
+  border-radius:15px;
+  transition:  all 0.2s ease-in-out;
+}
+.slider-wrapper .slide-button {
+  position: absolute;
+  top: 38%;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  z-index: 5;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  font-size: 2.2rem;
+  background: #000;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition:  all 0.2s ease-in-out;
+
+}
+.image-list{
+  height: 300px;
+  border-radius:20px;
+  transition:  all 0.2s ease-in-out;
+
+
+}
+
+.slider-wrapper .slide-button:hover {
+  background: #404040;
+  transition:  all 0.2s ease-in-out;
+
+}
+.slider-wrapper .slide-button#prev-slide {
+  left: 5px;
+  transition:  all 0.2s ease-in-out;
+
+}
+.slider-wrapper .slide-button#next-slide {
+  right: 5px;
+  transition:  all 0.2s ease-in-out;
+
+}
+.slider-wrapper .image-list {
+  display: grid;
+  grid-template-columns: repeat(30, 2fr);
+  gap: 20px;
+  font-size: 0;
+  list-style: none;
+  margin-bottom: 30px;
+  overflow-x:scroll;
+  scrollbar-width: none;
+  border-radius:5px;
+  transition:  all 0.2s ease-in-out;
+
+}
+.slider-wrapper .image-list::-webkit-scrollbar {
+  border-radius:20px;
+  transition:  all 0.2s ease-in-out;
+
+}
+.slider-wrapper .image-list .image-item {
+  width: 300px;
+  margin-top:30px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  transition:  all 0.2s ease-in-out;
+
+}
+.image-item:hover{
+  border-radius:20px;
+  transition:  all 0.2s ease-in-out;
+  filter: grayscale(0%);
+}
+
+  .image-item {
+      filter: grayscale(70%);
+      transition: filter 0.3s ease-in-out;
+  }      
+
+.slider-wrapper:hover .image-list:hover .image-item:hover {
+  transform: scale(1.05);
+  transition:  all 0.3s ease-in-out;
+  border: 4px solid #ffffff4f;
+  padding: 5px;
+  border-radius:20px;
+}
+.container .slider-scrollbar {
+  height: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius:20px;
+  transition:  all 0.2s ease-in-out;
+
+}
+.slider-scrollbar .scrollbar-track {
+  background: #ccc;
+  width: 100%;
+  height: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  position: relative;
+  margin-top: -200px;
+  border-radius:20px;
+  transition:  all 0.2s ease-in-out;
+  display: none;
+}
+.slider-scrollbar:hover .scrollbar-track {
+  height: 4px;
+  border-radius:20px;
+  transition:  all 0.2s ease-in-out;
+
+}
+.slider-scrollbar .scrollbar-thumb {
+  position: absolute;
+  background: #000;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  cursor: grab;
+  border-radius: inherit;
+  border-radius:20px;
+  transition:  all 0.2s ease-in-out;
+  display: none;
+}
+.slider-scrollbar .scrollbar-thumb:active {
+  cursor: grabbing;
+  height: 8px;
+  top: -2px;
+  border-radius:20px;
+  transition:  all 0.2s ease-in-out;
+
+}
+.slider-scrollbar .scrollbar-thumb::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -10px;
+  border-radius:20px;
+  transition:  all 0.2s ease-in-out;
+
+}
+
+.footer-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
 }
