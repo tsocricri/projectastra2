@@ -20,11 +20,7 @@ The link to our institute's website is [this one](https://www.salveminialessano.
 ### How does this platform work?
 The platform is nothing more than a real webtv where you can watch our content.
 
-### Techniques Used:
-Below are the HTML and CSS codes used:
+### Programming languages used
 
-```html
-<!-- HTML code -->
-<div class="example">
-  <p>This is an example HTML code.</p>
-</div>
+- Backend: JSON, Javascript
+- Frontend: CSS, SCSS, HTML
