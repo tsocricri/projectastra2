@@ -1,11 +1,10 @@
-
-        // Funzione per recuperare il numero di elementi dal file JSON
-        function getNumItemsForSlider(sliderContainer) {
+// Funzione per recuperare il numero di elementi dal file JSON
+function getNumItemsForSlider(sliderContainer) {
             // Recupera l'ID dello slider
             const sliderId = sliderContainer.id;
         
             // Effettua una richiesta HTTP per ottenere i dati dal file JSON
-            return fetch("assets/database.json")
+            return fetch("database.json")
                 .then(response => response.json())
                 .then(data => {
                     // Filtra gli elementi nel JSON che corrispondono allo slider
@@ -71,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         // Carica i dati dal file JSON e genera gli elementi del carosello
-        fetch("assets/database.json")
+        fetch("database.json")
             .then(response => response.json())
             .then(data => generateCarouselItems(data))
             .catch(error => console.error("Errore durante il caricamento del JSON:", error));
