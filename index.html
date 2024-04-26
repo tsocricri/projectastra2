@@ -10,255 +10,292 @@
 </head>
 <body>
     <section class="section-init">
-    <nav>
-                <img src="assets/images/logo-xicon.png" class="img-logo">
-                <a href="lanostrascuola.html" target="_blank" style="margin-left: 10px;">Salvemini Vibes
-                    </a>
-    </nav>
+        <nav>
+            <img src="assets/images/logo-xicon.png" class="img-logo">
+            <a href="lanostrascuola.html" target="_blank" style="margin-left: 10px;">Salvemini Vibes</a>
+        </nav>
 
-    <div class="everything">
-        <a href="https://www.youtube.com/watch?v=y2rfCE2eRds" style="display:flex; justify-content: center;">
-            <div class="tendenze">
-                <div class="tendenze-title">
-                    <h1>In tendenza 🔥</h1>
-               <img src="assets/images/puntataposter 11.png" class="img-tendenze">
+        <div class="everything">
+            <a href="https://www.youtube.com/watch?v=y2rfCE2eRds" style="display:flex; justify-content: center;">
+                <div class="tendenze">
+                    <div class="tendenze-title">
+                        <h1>In tendenza 🔥</h1>
+                        <img src="assets/images/puntataposter 11.png" class="img-tendenze">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div id="overlay" onclick="closePopup()">
+            <span id="closeBtn" onclick="closePopup()" class="pulsanteplclose"><img class="pulsanteiconclose" src="assets/images/close.svg"></span>
+            <div class="popup" onclick="event.stopPropagation()">
+                <!-- Pulsante di chiusura -->
+                
+                <!-- Iframe per il video di YouTube -->
+                <div id="ytplayer1"></div>
             </div>
         </div>
-    </a>
-    </div>
-    <div id="overlay" onclick="closePopup()">
-        <span id="closeBtn" onclick="closePopup()" class="pulsanteplclose"><img class="pulsanteiconclose" src="assets/images/close.svg"></span>
-        <div class="popup" onclick="event.stopPropagation()">
-            <!-- Pulsante di chiusura -->
-            
-            <!-- Iframe per il video di YouTube -->
-            <div id="ytplayer1"></div>
-        </div>
-    </div>
-
     </section>
+
     <div class="slider-container">
-    <div class="title">
-      <div class="title-1">
-        <p>Puntate Intere</p>
+        <div class="title">
+            <div class="title-1">
+                <p>Puntate Intere</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="slider-wrapper">
+                <button id="prev-slide" class="slide-button material-symbols-rounded">
+                    chevron_left
+                </button>
+                <ul class="image-list"></ul>
+                <button id="next-slide" class="slide-button material-symbols-rounded">
+                    chevron_right
+                </button>
+            </div>
+            <div class="slider-scrollbar">
+                <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-    <div class="container">
-        <div class="slider-wrapper">
-          <button id="prev-slide" class="slide-button material-symbols-rounded">
-            chevron_left
-          </button>
-          <ul class="image-list">
-            <img class="image-item" draggable="false" id="ID1" src="assets/images/slider-puntate/img_lab 1.png" alt="img-1" />
-            <img class="image-item" draggable="false" id="ID2" src="assets/images/slider-puntate/img_lab 2.png" alt="img-2" />
-            <img class="image-item" draggable="false" id="ID3" src="assets/images/slider-puntate/img_lab 3.png" alt="img-3" />
-            <img class="image-item" draggable="false" id="ID4" src="assets/images/slider-puntate/img_lab 4.png" alt="img-4" />
-            <img class="image-item" draggable="false" id="ID5" src="assets/images/slider-puntate/img_lab 5.png" alt="img-5" />
-            <img class="image-item" draggable="false" id="ID6" src="assets/images/slider-puntate/img_lab 6.png" alt="img-6" />
-            <img class="image-item" draggable="false" id="ID7" src="assets/images/slider-puntate/img_lab 7.png" alt="img-7" />
-            <img class="image-item" draggable="false" id="ID8" src="assets/images/slider-puntate/img_lab 8.png" alt="img-8" />
-            <img class="image-item" draggable="false" id="ID9" src="assets/images/slider-puntate/img_lab 9.png" alt="img-9" />
-            <img class="image-item" draggable="false" id="ID10" src="assets/images/slider-puntate/img_lab 10.png" alt="img-10" />
-            <img class="image-item" draggable="false" id="ID11" src="assets/images/slider-puntate/img_lab 11.png" alt="img-11" />
-            <img class="image-item" draggable="false" id="ID12" src="assets/images/slider-puntate/img_lab 12.png" alt="img-12" />
-            <img class="image-item" draggable="false" id="ID13" src="assets/images/slider-puntate/img_lab 13.png" alt="img-13" />
-            <img class="image-item" draggable="false" id="ID14" src="assets/images/slider-puntate/img_lab 14.png" alt="img-14" />
-            <img class="image-item" draggable="false" id="ID15" src="assets/images/slider-puntate/img_lab 15.png" alt="img-15" />
-            <img class="image-item" draggable="false" id="ID16" src="assets/images/slider-puntate/img_lab 16.png" alt="img-16" />
-            <img class="image-item" draggable="false" id="ID17" src="assets/images/slider-puntate/img_lab 17.png" alt="img-17" />
-            <img class="image-item" draggable="false" id="ID18" src="assets/images/slider-puntate/img_lab 18.png" alt="img-18" />
-            <img class="image-item" draggable="false" id="ID19" src="assets/images/slider-puntate/img_lab 19.png" alt="img-19" />
-            <img class="image-item" draggable="false" id="ID20" src="assets/images/slider-puntate/img_lab 20.png" alt="img-20" />
-            <img class="image-item" draggable="false" id="ID21" src="assets/images/slider-puntate/img_lab 21.png" alt="img-21" />
-            <img class="image-item" draggable="false" id="ID22" src="assets/images/slider-puntate/img_lab 22.png" alt="img-22" />        
-          </ul>
-          <button id="next-slide" class="slide-button material-symbols-rounded">
-            chevron_right
-          </button>
-        </div>
-        <div class="slider-scrollbar">
-          <div class="scrollbar-track">
-            <div class="scrollbar-thumb"></div>
-          </div>
-        </div>
-      </div>
-      </div>
 
      <div class="slider-container">
-      <div class="title">
-        <div class="title-2">
-          <p>Clip</p>
-      </div>
-    </div>
-    <div class="container">
-        <div class="slider-wrapper">
-          <button id="prev-slide" class="slide-button material-symbols-rounded">
-            chevron_left
-          </button>
-            <ul class="image-list">
-            <img class="image-item" draggable="false" id="ID1" src="assets/images/slider-puntate/img_lab 1.png" alt="img-1" />
-            <img class="image-item" draggable="false" id="ID2" src="assets/images/slider-puntate/img_lab 2.png" alt="img-2" />
-            <img class="image-item" draggable="false" id="ID3" src="assets/images/slider-puntate/img_lab 3.png" alt="img-3" />
-            <img class="image-item" draggable="false" id="ID4" src="assets/images/slider-puntate/img_lab 4.png" alt="img-4" />
-            <img class="image-item" draggable="false" id="ID5" src="assets/images/slider-puntate/img_lab 5.png" alt="img-5" />
-            <img class="image-item" draggable="false" id="ID6" src="assets/images/slider-puntate/img_lab 6.png" alt="img-6" />
-            <img class="image-item" draggable="false" id="ID7" src="assets/images/slider-puntate/img_lab 7.png" alt="img-7" />
-            <img class="image-item" draggable="false" id="ID8" src="assets/images/slider-puntate/img_lab 8.png" alt="img-8" />
-            <img class="image-item" draggable="false" id="ID9" src="assets/images/slider-puntate/img_lab 9.png" alt="img-9" />
-            <img class="image-item" draggable="false" id="ID10" src="assets/images/slider-puntate/img_lab 10.png" alt="img-10" />
-          </ul>
-          <button id="next-slide" class="slide-button material-symbols-rounded">
-            chevron_right
-          </button>
-        </div>
-        <div class="slider-scrollbar">
-          <div class="scrollbar-track">
-            <div class="scrollbar-thumb"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+       <div class="title">
+           <div class="title-2">
+               <p>Clip</p>
+           </div>
+       </div>
+       <div class="container">
+           <div class="slider-wrapper">
+               <button id="prev-slide" class="slide-button material-symbols-rounded">
+                   chevron_left
+               </button>
+               <ul class="image-list"></ul>
+               <button id="next-slide" class="slide-button material-symbols-rounded">
+                   chevron_right
+               </button>
+           </div>
+           <div class="slider-scrollbar">
+               <div class="scrollbar-track">
+                   <div class="scrollbar-thumb"></div>
+               </div>
+           </div>
+       </div>
+   </div>
 
     <footer class="footer">
-      <div class="footer-content">
-        <div class="footer-final">
-          <p>Made with ❤️ by Cristiano for <a href="../assets/index.html" style="text-decoration: underline; text-decoration-thickness: 2px;">Salvemini Vibes </a></p>
-          <p>Salvemini Vibes © and Project Astra®</p>
-          <p><b style="margin-top: 10px; margin-bottom: -3px;">Launched in Italy, on <font class="year" style="margin-top: -2px; "></font></b></p>
+        <div class="footer-content">
+            <div class="footer-final">
+                <p>Made with ❤️ by Cristiano for <a href="../assets/index.html" style="text-decoration: underline; text-decoration-thickness: 2px;">Salvemini Vibes </a></p>
+                <p>Salvemini Vibes © and Project Astra®</p>
+                <p><b style="margin-top: 10px; margin-bottom: -3px;">Launched in Italy, on <font class="year" style="margin-top: -2px; "></font></b></p>
+            </div>
         </div>
-      </div>
     </footer>
       
       <script>
-
-          document.addEventListener("DOMContentLoaded", function() { 
-            // get the the span element
-            const yrSpan = document.querySelector('.year');
-            // get the current year
-            const currentYr = new Date().getFullYear();
-            // set the year span element's text to the current year
-            yrSpan.textContent = currentYr;
-          });
+          document.addEventListener("DOMContentLoaded", function() {
+        const sliderContainers = document.querySelectorAll('.slider-container');
+          
+        sliderContainers.forEach(sliderContainer => {
+            const imageList = sliderContainer.querySelector(".slider-wrapper .image-list");
+        
+            // Funzione per generare gli elementi del carosello dal file JSON
+            function generateCarouselItems(data) {
+                data.forEach(item => {
+                    const imageItem = document.createElement("img");
+                    imageItem.className = "image-item";
+                    imageItem.draggable = false;
+                    imageItem.src = item.src;
+                    imageItem.alt = item.alt;
+                    imageItem.id = item.id;
+                
+                    // Aggiungi l'evento click per aprire il popup
+                    imageItem.addEventListener("click", function() {
+                        openPopup(item.videoUrl);
+                    });
+                  
+                    // Aggiungi l'elemento al carosello
+                    imageList.appendChild(imageItem);
+                });
+            }
+          
+            // Carica i dati dal file JSON e genera gli elementi del carosello
+            fetch("assets/database.json")
+                .then(response => response.json())
+                .then(data => generateCarouselItems(data))
+                .catch(error => console.error("Errore durante il caricamento del JSON:", error));
+        });
+      
         // Funzione per aprire il popup con il video di YouTube
         function openPopup(videoUrl) {
             // Imposta l'iframe del video
             var playerDiv = document.getElementById('ytplayer1');
             playerDiv.innerHTML = '<iframe width="1240px" height="700px" src="' + videoUrl + '" frameborder="0" allowfullscreen style="border-radius:20px;" class="iframe"></iframe>';
-
+        
             // Mostra il popup
             document.getElementById("overlay").style.display = "flex";
         }
-
+      
         // Funzione per chiudere il popup
         function closePopup() {
             // Nascondi il popup
             document.getElementById("overlay").style.display = "none";
-
+        
             // Interrompi la riproduzione del video di YouTube
             document.getElementById("ytplayer1").innerHTML = "";
         }
-
-        // Aggiungi un gestore di eventi a ciascuna immagine
-        document.addEventListener("DOMContentLoaded", function() {
-            var images = document.querySelectorAll(".image-item");
-            images.forEach(function(image) {
-                image.addEventListener("click", function() {
-                    var imageId = this.id;
-                    var jsonUrl = "assets/database.json"; // Percorso del file JSON
-
-                    fetch(jsonUrl)
-                        .then(response => response.json())
-                        .then(data => {
-                            if (data.hasOwnProperty(imageId)) {
-                                var videoUrl = data[imageId];
-                                openPopup(videoUrl); // Apri il popup con il video di YouTube
-                            } else {
-                                console.error("Link non trovato nel JSON per l'ID: " + imageId);
-                            }
-                        })
-                        .catch(error => console.error("Errore durante il caricamento del JSON:", error));
+      
+        // Aggiungi un gestore di eventi per i pulsanti
+        const slideButtons = document.querySelectorAll(".slide-button");
+      
+        // Aggiungi eventi click ai pulsanti
+        slideButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                const direction = button.id.includes("prev") ? -1 : 1;
+                const sliderContainer = button.closest(".slider-container");
+                const imageList = sliderContainer.querySelector(".image-list");
+                const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+                const scrollAmount = imageList.clientWidth * direction;
+                imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
+            });
+        });
+      
+        // Gestione dello slider
+        sliders.forEach((slider, index) => {
+            const imageList = slider.querySelector(".slider-wrapper .image-list");
+            const sliderScrollbar = slider.querySelector(".container .slider-scrollbar");
+            const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
+            const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+        
+            // Handle scrollbar thumb drag
+            scrollbarThumb.addEventListener("mousedown", (e) => {
+                const startX = e.clientX;
+                const thumbPosition = scrollbarThumb.offsetLeft;
+                const maxThumbPosition = sliderScrollbar.getBoundingClientRect().width - scrollbarThumb.offsetWidth;
+            
+                // Update thumb position on mouse move
+                const handleMouseMove = (e) => {
+                    const deltaX = e.clientX - startX;
+                    const newThumbPosition = thumbPosition + deltaX;
+                    // Ensure the scrollbar thumb stays within bounds
+                    const boundedPosition = Math.max(0, Math.min(maxThumbPosition, newThumbPosition));
+                    const scrollPosition = (boundedPosition / maxThumbPosition) * maxScrollLeft;
+                
+                    scrollbarThumb.style.left = `${boundedPosition}px`;
+                    imageList.scrollLeft = scrollPosition;
+                }
+              
+                // Remove event listeners on mouse up
+                const handleMouseUp = () => {
+                    document.removeEventListener("mousemove", handleMouseMove);
+                    document.removeEventListener("mouseup", handleMouseUp);
+                }
+              
+                // Add event listeners for drag interaction
+                document.addEventListener("mousemove", handleMouseMove);
+                document.addEventListener("mouseup", handleMouseUp);
+            });
+          
+            // Show or hide slide buttons based on scroll position
+            const handleSlideButtons = () => {
+                const slideButtons = slider.querySelectorAll(".slider-wrapper .slide-button");
+                slideButtons.forEach((button, i) => {
+                    button.style.display =
+                        i === 0
+                            ? imageList.scrollLeft <= 0
+                            ? "none"
+                            : "flex"
+                            : i === slideButtons.length - 1
+                            ? imageList.scrollLeft >= maxScrollLeft
+                            ? "none"
+                            : "flex"
+                            : "flex";
+                });
+            };
+          
+            // Update scrollbar thumb position based on image scroll
+            const updateScrollThumbPosition = () => {
+                const scrollPosition = imageList.scrollLeft;
+                const thumbPosition = (scrollPosition / maxScrollLeft) * (sliderScrollbar.clientWidth - scrollbarThumb.offsetWidth);
+                scrollbarThumb.style.left = `${thumbPosition}px`;
+            };
+          
+            // Call these two functions when image list scrolls
+            imageList.addEventListener("scroll", () => {
+                updateScrollThumbPosition();
+                handleSlideButtons();
+            });
+        });
+      
+        // Inizializzazione dello slider
+        function initSlider() {
+            sliders.forEach((slider, index) => {
+                const imageList = slider.querySelector(".slider-wrapper .image-list");
+                const sliderScrollbar = slider.querySelector(".container .slider-scrollbar");
+                const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
+                const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+            
+                // Reset scrollbar thumb position
+                scrollbarThumb.style.left = "0px";
+            
+                // Show or hide slide buttons based on scroll position
+                const handleSlideButtons = () => {
+                    const slideButtons = slider.querySelectorAll(".slider-wrapper .slide-button");
+                    slideButtons.forEach((button, i) => {
+                        button.style.display =
+                            i === 0
+                                ? imageList.scrollLeft <= 0
+                                ? "none"
+                                : "flex"
+                                : i === slideButtons.length - 1
+                                ? imageList.scrollLeft >= maxScrollLeft
+                                ? "none"
+                                : "flex"
+                                : "flex";
+                    });
+                };
+              
+                // Update scrollbar thumb position based on image scroll
+                const updateScrollThumbPosition = () => {
+                    const scrollPosition = imageList.scrollLeft;
+                    const thumbPosition = (scrollPosition / maxScrollLeft) * (sliderScrollbar.clientWidth - scrollbarThumb.offsetWidth);
+                    scrollbarThumb.style.left = `${thumbPosition}px`;
+                };
+              
+                // Call these two functions when image list scrolls
+                imageList.addEventListener("scroll", () => {
+                    updateScrollThumbPosition();
+                    handleSlideButtons();
                 });
             });
-        });
-        const sliders = document.querySelectorAll('.slider-container');
-
-        sliders.forEach((slider, index) => {
-          const imageList = slider.querySelector(".slider-wrapper .image-list");
-          const slideButtons = slider.querySelectorAll(".slider-wrapper .slide-button");
-          const sliderScrollbar = slider.querySelector(".container .slider-scrollbar");
-          const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
-          const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
-        
-          // Handle scrollbar thumb drag
-          scrollbarThumb.addEventListener("mousedown", (e) => {
-            const startX = e.clientX;
-            const thumbPosition = scrollbarThumb.offsetLeft;
-            const maxThumbPosition = sliderScrollbar.getBoundingClientRect().width - scrollbarThumb.offsetWidth;
-        
-            // Update thumb position on mouse move
-            const handleMouseMove = (e) => {
-              const deltaX = e.clientX - startX;
-              const newThumbPosition = thumbPosition + deltaX;
-              // Ensure the scrollbar thumb stays within bounds
-              const boundedPosition = Math.max(0, Math.min(maxThumbPosition, newThumbPosition));
-              const scrollPosition = (boundedPosition / maxThumbPosition) * maxScrollLeft;
-            
-              scrollbarThumb.style.left = `${boundedPosition}px`;
-              imageList.scrollLeft = scrollPosition;
-            }
-        
-            // Remove event listeners on mouse up
-            const handleMouseUp = () => {
-              document.removeEventListener("mousemove", handleMouseMove);
-              document.removeEventListener("mouseup", handleMouseUp);
-            }
-        
-            // Add event listeners for drag interaction
-            document.addEventListener("mousemove", handleMouseMove);
-            document.addEventListener("mouseup", handleMouseUp);
-          });
+        }
       
-          // Slide images according to the slide button clicks
-          slideButtons.forEach((button) => {
-            button.addEventListener("click", () => {
-              const direction = button.id.includes("prev") ? -1 : 1;
-              const scrollAmount = imageList.clientWidth * direction;
-              imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
-            });
-          });
-      
-          // Show or hide slide buttons based on scroll position
-          const handleSlideButtons = () => {
-            slideButtons.forEach((button, i) => {
-              button.style.display =
-                i === 0
-                  ? imageList.scrollLeft <= 0
-                    ? "none"
-                    : "flex"
-                  : i === slideButtons.length - 1
-                  ? imageList.scrollLeft >= maxScrollLeft
-                    ? "none"
-                    : "flex"
-                  : "flex";
-            });
-          };
-      
-          // Update scrollbar thumb position based on image scroll
-          const updateScrollThumbPosition = () => {
-            const scrollPosition = imageList.scrollLeft;
-            const thumbPosition = (scrollPosition / maxScrollLeft) * (sliderScrollbar.clientWidth - scrollbarThumb.offsetWidth);
-            scrollbarThumb.style.left = `${thumbPosition}px`;
-          };
-      
-          // Call these two functions when image list scrolls
-          imageList.addEventListener("scroll", () => {
-            updateScrollThumbPosition();
-            handleSlideButtons();
-          });
-        });
-
+        // Aggiungi gli eventi di ridimensionamento e caricamento per inizializzare lo slider
         window.addEventListener("resize", initSlider);
         window.addEventListener("load", initSlider);
+    });
+
+    function closePopup() {
+    // Nascondi il popup
+    document.getElementById("overlay").style.display = "none";
+
+    // Interrompi la riproduzione del video di YouTube
+    document.getElementById("ytplayer1").innerHTML = "";
+    }
+    
+    // Aggiungi un event listener all'overlay per chiudere il popup
+    document.getElementById("overlay").addEventListener("click", function(event) {
+        if (event.target === this) {
+            closePopup();
+        }
+    });
+    
+    // Aggiungi un event listener al pulsante di chiusura per chiudere il popup
+    document.getElementById("closeBtn").addEventListener("click", function() {
+        closePopup();
+    });
     </script>
 
 
