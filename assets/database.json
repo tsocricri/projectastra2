@@ -1,135 +1,153 @@
 [
     {
-      "id": "ID1",
+      "id": "P-ID1",
       "src": "assets/images/slider-puntate/img_lab 1.png",
       "alt": "img-1",
       "videoUrl": "https://www.youtube.com/embed/Dk3J5FsGc8U"
     },
     {
-      "id": "ID2",
+      "id": "P-ID2",
       "src": "assets/images/slider-puntate/img_lab 2.png",
       "alt": "img-2",
       "videoUrl": "https://www.youtube.com/embed/otqJdHqug4c"
     },
     {
-      "id": "ID3",
+      "id": "P-ID3",
       "src": "assets/images/slider-puntate/img_lab 3.png",
       "alt": "img-3",
       "videoUrl": "https://www.youtube.com/embed/51Fqkk1ayMk"
     },
     {
-      "id": "ID4",
+      "id": "P-ID4",
       "src": "assets/images/slider-puntate/img_lab 4.png",
       "alt": "img-4",
       "videoUrl": "https://www.youtube.com/embed/eR0txypwMPU"
     },
     {
-      "id": "ID5",
+      "id": "P-ID5",
       "src": "assets/images/slider-puntate/img_lab 5.png",
       "alt": "img-5",
       "videoUrl": "https://www.youtube.com/embed/nCg7Xn3ohGI"
     },
     {
-      "id": "ID6",
+      "id": "P-ID6",
       "src": "assets/images/slider-puntate/img_lab 6.png",
       "alt": "img-6",
       "videoUrl": "https://www.youtube.com/embed/0v524u_Z0eQ"
     },
     {
-      "id": "ID7",
+      "id": "", 
       "src": "assets/images/slider-puntate/img_lab 7.png",
       "alt": "img-7",
       "videoUrl": "https://www.youtube.com/embed/Np9LPfWtQNk"
     },
     {
-      "id": "ID8",
+      "id": "P-ID8",
       "src": "assets/images/slider-puntate/img_lab 8.png",
       "alt": "img-8",
       "videoUrl": "https://www.youtube.com/embed/_rIbMv1F-ro"
     },
     {
-      "id": "ID9",
+      "id": "P-ID9",
       "src": "assets/images/slider-puntate/img_lab 9.png",
       "alt": "img-9",
       "videoUrl": "https://www.youtube.com/embed/WL4_HNCiyd0"
     },
     {
-      "id": "ID10",
+      "id": "P-ID10",
       "src": "assets/images/slider-puntate/img_lab 10.png",
       "alt": "img-10",
       "videoUrl": "https://www.youtube.com/embed/DXIULiPWyCA"
     },
     {
-      "id": "ID11",
+      "id": "P-ID11",
       "src": "assets/images/slider-puntate/img_lab 11.png",
       "alt": "img-11",
       "videoUrl": "https://www.youtube.com/embed/lNtsn0R65NA"
     },
     {
-      "id": "ID12",
+      "id": "P-ID12",
       "src": "assets/images/slider-puntate/img_lab 12.png",
       "alt": "img-12",
       "videoUrl": "https://www.youtube.com/embed/clQ9nxoJ97s"
     },
     {
-      "id": "ID13",
+      "id": "P-ID13",
       "src": "assets/images/slider-puntate/img_lab 13.png",
       "alt": "img-13",
       "videoUrl": "https://www.youtube.com/embed/y2rfCE2eRds"
     },
     {
-      "id": "ID14",
+      "id": "P-ID14",
       "src": "assets/images/slider-puntate/img_lab 14.png",
       "alt": "img-14",
       "videoUrl": "https://www.youtube.com/embed/Z3rTpJpJxAA"
     },
     {
-      "id": "ID15",
+      "id": "P-ID15",
       "src": "assets/images/slider-puntate/img_lab 15.png",
       "alt": "img-15",
       "videoUrl": "https://www.youtube.com/embed/a2S4GBxa-Mw"
     },
     {
-      "id": "ID16",
+      "id": "P-ID16",
       "src": "assets/images/slider-puntate/img_lab 16.png",
       "alt": "img-16",
       "videoUrl": "https://www.youtube.com/embed/JpvQaHB_vII"
     },
     {
-      "id": "ID17",
+      "id": "P-ID17",
       "src": "assets/images/slider-puntate/img_lab 17.png",
       "alt": "img-17",
       "videoUrl": "https://www.youtube.com/embed/e3O9lIdcVlE"
     },
     {
-      "id": "ID18",
+      "id": "P-ID18",
       "src": "assets/images/slider-puntate/img_lab 18.png",
       "alt": "img-18",
       "videoUrl": "https://www.youtube.com/embed/-OYkG1IN7nY"
     },
     {
-      "id": "ID19",
+      "id": "P-ID19",
       "src": "assets/images/slider-puntate/img_lab 19.png",
       "alt": "img-19",
       "videoUrl": "https://www.youtube.com/embed/AENkzyLwC2s"
     },
     {
-      "id": "ID20",
+      "id": "",
       "src": "assets/images/slider-puntate/img_lab 20.png",
       "alt": "img-20",
       "videoUrl": "https://www.youtube.com/embed/cbOICRwKUS4"
     },
     {
-      "id": "ID21",
+      "id": "P-ID21",
       "src": "assets/images/slider-puntate/img_lab 21.png",
       "alt": "img-21",
       "videoUrl": "https://www.youtube.com/embed/cmEdnRiGmcY"
     },
     {
-      "id": "ID22",
+      "id": "P-ID22",
       "src": "assets/images/slider-puntate/img_lab 22.png",
       "alt": "img-22",
       "videoUrl": "https://www.youtube.com/embed/kSz_Lllc0ao"
+    },
+    {
+      "id": "C-ID1",
+      "src": "assets/images/slider-puntate/img_lab 20.png",
+      "alt": "img-1",
+      "videoUrl": "https://www.youtube.com/embed/cbOICRwKUS4"
+    },
+    {
+      "id": "C-ID2",
+      "src": "assets/images/slider-puntate/img_lab 7.png",
+      "alt": "img-2",
+      "videoUrl": "https://www.youtube.com/embed/Np9LPfWtQNk"
+    },
+    {
+      "id": "IST-ID1",
+      "src": "https://img.youtube.com/vi/62RSmAGQx88/maxresdefault.jpg",
+      "alt": "img-2",
+      "videoUrl": "https://www.youtube.com/embed/62RSmAGQx88"
     }
   ]
   
