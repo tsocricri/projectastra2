@@ -2,6 +2,46 @@
 @import url('style2.css');
 
 *{
+
+}
+
+
+body {
+  --sb-track-color: #181a22;
+  --sb-thumb-color: #3f4147;
+  --sb-size: 12px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 21px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 21px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #181a22;
+  background: #ececec;
+}
+
+::selection {
+  color: #181a22;
+  background: #ececec;
 }
 
 body{
@@ -45,6 +85,14 @@ nav a:hover{
     text-underline-position: above;
     text-decoration-thickness: 2px;
     transition: all 0.2s ease-in-out;
+}
+
+.nav-p{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  border-radius: 15px;
+  color: #040613bd;
 }
 
 a {
@@ -300,6 +348,26 @@ a {
     align-content: stretch;
     flex-direction: row-reverse;
 }
+.title-3 {
+  font-family: 'SF Pro Display';
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-left: 2%;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color:rgb(216, 216, 216);
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid  #fff;
+  width: 160px;
+  height: 58px;
+  padding: 5px;
+  align-content: stretch;
+  flex-direction: row-reverse;
+}
 
 #overlay {
     position: fixed;
@@ -420,6 +488,29 @@ a {
     
 }
 
+@media only screen and (max-width: 670px) {
+
+.everything{
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+  
+.nav-p{
+  display: none;
+}
+
+body{
+  background-image: url('images/bgwebsite.png'); 
+  background-repeat: no-repeat;
+  background-attachment:unset;
+  background-size:cover;
+}
+.section-init{
+  background-image: none;
+}
+
+}
+
 @media only screen and (max-width: 413px) {
   .everything{
       margin-top: 30%;
@@ -522,6 +613,26 @@ a {
   align-content: stretch;
   flex-direction: row-reverse;
 }
+.title-3 {
+  font-family: 'SF Pro Display';
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5%;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color:#181a22;
+  background-color: rgba(219, 219, 219, 0.952);
+  border: none;
+  width: 160px;
+  height: 58px;
+  padding: 5px;
+  align-content: stretch;
+  flex-direction: row-reverse;
+}
+
 
 .title{
   width: 100%;
