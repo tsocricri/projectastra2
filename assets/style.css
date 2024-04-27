@@ -903,4 +903,11 @@ body{
   margin-bottom: 5%;
   text-align: center;
 }
+
+  .slide-button#prev-slide {
+    display: none;
+
+  }
+  .slide-button#next-slide {
+    display: none;
 }
