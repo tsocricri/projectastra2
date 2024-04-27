@@ -911,3 +911,7 @@ body{
   .slide-button#next-slide {
     display: none;
 }
+
+.slide-button{
+  display: none;
+}
